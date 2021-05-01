@@ -1,10 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+### How to run
+simply download files from git and run yarn start. In the command line, you might need to input "yarn init" so that the packages can be downloaded.
 
 ### `yarn start`
 
