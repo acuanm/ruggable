@@ -1,0 +1,19 @@
+.rectangle {
+    display: flex-start;
+    margin: 10px;
+    width: 600px;
+    height: 150px;
+    background: white;
+    color:#005cc5;
+    text-align: left;
+  }
+
+.name {
+    margin: 0px;
+}
+
+.link{
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+}
