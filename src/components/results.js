@@ -1,22 +1,27 @@
 import React from 'react';
 import './results.css';
 import logo from '../logo.jpeg';
+import {GitForkIcon} from '@primer/octicons-react'
 
 
 
 
-const Results = ({link, name}) =>{
+
+const Results = ({link, name, forks, description}) =>{
     return(
         <div className = "rectangle" >
-            <p clasName = "name">
-                {name}
-            </p>
-            <p  className ="link">
-                <a href={{link}}>
-                    {link}
+            <p className = "name">
+                <a className = 'name' href = {{link}}>
+                    {name}
                 </a>
             </p>
-            <img src={logo} className="logo" alt="logo" />
+            <p className='description'>
+                {description}
+            </p>
+            <GitForkIcon className="logo" alt="logo" />
+            <a className="extraInfo">
+                {forks}
+            </a>
             <img src={logo} className="logo" alt="logo" />
             <img src={logo} className="logo" alt="logo" />
 

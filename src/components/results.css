@@ -4,7 +4,7 @@
     width: 600px;
     height: 150px;
     background: white;
-    color:#005cc5cc;
+    color:rgb(216, 216, 216);
     text-align: left;
     border-style: solid;
     border-top:0;
@@ -14,13 +14,17 @@
   }
 
 .name { 
-    margin: 10px;
+    margin: 0px;
+    color:#0569ffcc;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
 }
 
-.link{
-    margin: 0px;
-    font-size: 20px;
-    color: black;
+.description{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(118, 117, 117);
     text-decoration: none;
 
 }
@@ -28,11 +32,16 @@
 .logo {
     display: inline-flex;
     margin-top: 30px;
-    margin-right: 10px;
-
+    margin-right: -10px;
     height: 40px;
     width: 70px;
 
+}
+
+.extraInfo{
+    display: inline-flex;
+    margin: 0%;
+    padding: 0;
 }
 
 a {
@@ -42,5 +51,6 @@ a {
 }
 
 p {
+    
     margin: 0;
 }

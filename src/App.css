@@ -34,6 +34,11 @@
 
 }
 
+.mainText{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .search
 {
   display: inline-block;
