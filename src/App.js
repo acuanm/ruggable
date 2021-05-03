@@ -49,19 +49,22 @@ class App extends React.Component{
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className='mainText'>
-          Search repository of a given user
+          Search the repository of a given user sorted by stars
         </p>
-        <SearchBox 
-          className="search"
-          placeholder="Enter desired user ..." 
-          handleChange={this.handleChange}
-        />
-        <button
-          className = "button"
-          onClick={this.handleClick}
-          > Enter
-        
-        </button>            
+        <div className="container">
+          <SearchBox 
+            className="search"
+            placeholder="Enter desired user ..." 
+            handleChange={this.handleChange}
+          />
+          <button
+            className = "button"
+            onClick={this.handleClick}
+          > 
+              Enter  
+          </button>             
+        </div>
+             
         {this.state.results.map(result =>(
           <Results
             link = {result['html_url']}
