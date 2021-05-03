@@ -68,6 +68,8 @@ class App extends React.Component{
             name = {result['name']}
             description = {result['description']}
             forks = {result["forks"]}
+            stars={result["stargazers_count"]}
+            issues={result["open_issues"]}
           />
         ))}      
         </header>
