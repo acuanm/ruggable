@@ -37,6 +37,7 @@ class App extends React.Component{
     search.preventDefault();
     const result = await this.get();
     if(result["items"]){
+      console.log(result["items"])
       this.setState({results: result["items"]})
     }
     

@@ -1,5 +1,7 @@
 import React from 'react';
 import './results.css';
+import logo from '../logo.jpeg';
+
 
 
 
@@ -14,6 +16,11 @@ const Results = ({link, name}) =>{
                     {link}
                 </a>
             </p>
+            <img src={logo} className="logo" alt="logo" />
+            <img src={logo} className="logo" alt="logo" />
+            <img src={logo} className="logo" alt="logo" />
+
+
         </div>
     );
 }
